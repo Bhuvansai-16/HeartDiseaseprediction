@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load the trained model
-with open("model/heart_model.pkl", "rb") as f:
+with open("heart_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Apply custom CSS
